@@ -1,8 +1,9 @@
 import React from "react";
 import MenuItem from "./MenuItem";
+import "./navbar.style.css";
 import DROPDOWN_2_1 from "./dopdown-2-1";
 import DROPDOWN_2_2 from "./dropdown-2-2";
-import "./navbar.style.css";
+import ASSIGN_DROPDOWN from "./AssignDropdown/assignmetDropdown";
 import logo from "../../media/fabicon/logo.jpg";
 import { HashRouter, Link } from "react-router-dom";
 class NavBar extends React.Component {
@@ -13,6 +14,7 @@ class NavBar extends React.Component {
       Items: MenuItem,
       dropdown2_1: DROPDOWN_2_1,
       dropdown2_2: DROPDOWN_2_2,
+      assignmentDropdown:ASSIGN_DROPDOWN,
     };
   }
   handleClick = () => {
@@ -46,7 +48,7 @@ class NavBar extends React.Component {
                     </div>
                   </div>
                   <div id='link1' class='dItem'>
-                  <p className='year_sem'>2-2</p>
+                    <p className='year_sem'>2-2</p>
                     <div class='dropdown-two'>
                       {this.state.dropdown2_2.map(({ id, title, url }) => (
                         <div key={id} class='dItem'>
@@ -55,6 +57,21 @@ class NavBar extends React.Component {
                       ))}
                     </div>
                   </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class='dropdown'>
+                <div class='dropbtn'>{`Assingment & Lab`}</div>
+                <div class='dropdown-one'>
+                  {
+                    this.state.assignmentDropdown.map((item)=>(
+
+                  <div id='link1' class='dItem'>
+                    <Link to={item.url}>{item.title}</Link>
+                  </div>
+                    ))
+                  }
                 </div>
               </div>
             </li>
