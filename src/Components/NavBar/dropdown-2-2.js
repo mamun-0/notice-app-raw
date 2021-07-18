@@ -24,5 +24,10 @@ const DROPDOWN_2_2 = [
     url: "/math-255",
     id: 5,
   },
+  {
+    title: "ACC",
+    url: "/acc-255",
+    id: 5,
+  },
 ];
 export default DROPDOWN_2_2;

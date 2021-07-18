@@ -13,6 +13,7 @@ import AlgorithmsFlex from "./Components/OnlineClass/Video-card/SecondYearSecond
 import LawFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/law.component";
 import ComputingFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/throryOfComputing.component";
 import Math255Flex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/math.component";
+import AccFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/acc.component"
 // Assignment Section
 import Assignment21 from './Components/Assignments/AssignmentCard/2-1/assignmentcard.component'
 import Assignment22 from './Components/Assignments/AssignmentCard/2-2/assignmentcard.component'
@@ -32,6 +33,7 @@ function App() {
         <Route path='/cyber-law' component={LawFlex} />
         <Route path='/theory-of-Computing' component={ComputingFlex} />
         <Route path='/math-255' component={Math255Flex} />
+        <Route path='/acc-255' component={AccFlex} />
         <Route
           path='/algorithms-design-and-analysis'
           component={AlgorithmsFlex}
