@@ -120,7 +120,7 @@ const SEMESTERS_FILES = [
         subjectCode: "CSE 253",
         subjectName: "Introduction To Digital Systems | Files",
         a_tag_title: "Download",
-        link: "https://mega.nz/file/CGhRDSSb#X2iTswZyYyX1BTvB-ujCsYPYvtXUvOflUdRR7udCfqQ",
+        link: "https://drive.google.com/file/d/1pNSBNN6LuwJebNvM2XFAcQniQb8ySQNe/view?usp=sharing",
       },
       {
         id: 4,
@@ -164,11 +164,11 @@ const SEMESTERS_FILES = [
       },
       {
         id: 9,
-        teacherName: "Ashiquzzaman",
+        teacherName: "Ashik-Uz-Zaman",
         subjectCode: "ACC 255",
         subjectName: "Industrial Management and Accountancy | Files",
         a_tag_title: "Download",
-        link: "https://mega.nz/file/GbAyzDJb#JllfayPKu2SOH8sn_dV9yfVEpmokQQQIm1gMx67tQAE",
+        link: "https://drive.google.com/file/d/1p8O1JG1Yszh4rgXVKCaotPYWT88Oy289/view?usp=sharing",
       },
     ],
   },
