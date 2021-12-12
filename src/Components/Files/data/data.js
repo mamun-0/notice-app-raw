@@ -40,9 +40,9 @@ const SEMESTERS_FILES = [
         id: 5,
         teacherName: "Abu Bakar Muhammad Abdullah",
         subjectCode: "CSE 203 & 204",
-        subjectName: "Digital Logic Design [All Files Included Except Proteus]",
+        subjectName: "Digital Logic Design [All PPT Files]",
         a_tag_title: "Download",
-        link: "https://drive.google.com/file/d/1uZjnNsshMg4ygEjchPPWbTyedvmtDIO7/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1aafH5q5MYp8Ruv5os2UIWu6X9GhGyZ5O/view?usp=sharing",
       },
       {
         id: 6,
@@ -144,7 +144,7 @@ const SEMESTERS_FILES = [
         subjectCode: "CSE 258",
         subjectName: "Engineering Drawing Lab | Files",
         a_tag_title: "Download",
-        link: "https://mega.nz/file/GbAyzDJb#JllfayPKu2SOH8sn_dV9yfVEpmokQQQIm1gMx67tQAE",
+        link: "https://drive.google.com/file/d/1NFgoylchiXglPyyRPhgSum1ohFdUw7pW/view?usp=sharing",
       },
       {
         id: 7,
@@ -152,7 +152,7 @@ const SEMESTERS_FILES = [
         subjectCode: "MAT 255",
         subjectName: "Complex Variables and Laplace | Files",
         a_tag_title: "Download",
-        link: "https://mega.nz/file/vbhWEZaB#STnUZVMRIftRtYqO2qnt0a6VM2mYyOxMXEQ9MffAhuM",
+        link: "https://drive.google.com/file/d/18LcWInBeIXadXmZymfHX6t3nzdporzXD/view?usp=sharing",
       },
       {
         id: 8,
