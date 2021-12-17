@@ -8,6 +8,9 @@ nav {
 .logo {
   margin-left: 5px;
 }
+.main-logo{
+  
+}
 .nav-links {
   display: flex;
   justify-content: space-around;
