@@ -214,7 +214,7 @@ const SEMESTERS_FILES = [
         subjectCode: "Previous Year Questions",
         subjectName: "--",
         a_tag_title: "Download",
-        link: "https://github.com/ShantoNoor/bsmrstu_cse_semester_questions/archive/refs/heads/master.zip",
+        link: "https://github.com/mamun-0/bsmrstu-cse-questions",
       },
       {
         id: 3,
