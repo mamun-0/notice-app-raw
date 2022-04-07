@@ -1,5 +1,73 @@
 const NOTICE_DATA = [
   {
+    id: 9,
+    noticeHeading: "ACC255 2nd & 3rd Assignment",
+    noticeDetails: `Assignment 2:
+    *Difference between Sole proprietorship & partnership Business. 
+    
+    *Difference between Corporation & Partnership Business. 
+    
+    Assignment 3:
+
+    *Description of elements of Financial statements`,
+    downloadLink: "",
+    a_tag_title: "Not Downloadable",
+    publishedDate: "Deadline: 02/04/2022",
+  },
+  {
+    id: 8,
+    noticeHeading: "Algorithms Design And Analysis CSE252 LAB",
+    noticeDetails: `
+    CSE252 Topics for Lab exams:
+
+    1. DFS ( DFS related problems included)
+    2. BFS (BFS related problems included)
+    3. Dynamic Programming (sove DP related problems)
+    4. Greedy Algorithms (solve GA related problems)`,
+    downloadLink: "",
+    a_tag_title: "Not Downloadable",
+    publishedDate: "Published Date: 05/02/2022",
+  },
+  {
+    id: 7,
+    noticeHeading: "Introduction To Digital Systems Lab Topics",
+    noticeDetails: `CSE254 syllabus
+      ###Experiment
+      # All types of Flipflop(design and implement)
+      # All types of counter(design and implement)
+      # All types of register(design and implement)
+      # Work in Sequence Counter with JK flipflop
+      #Analog to Digital and Digital to Analog conversion
+      #Create Memory with D-flipflop
+      #Clipper and Clamper(design and implement)
+      #bitable and astable multivibrations
+      ###Quize/ viva:
+      #All properties of IC`,
+    downloadLink: "",
+    a_tag_title: "Not Downloadable",
+    publishedDate: "Published Date: 01/02/2022",
+  },
+  {
+    id: 6,
+    noticeHeading: "Assignment from Sangida Akter Saroni mam",
+    noticeDetails:
+      "Mr. Bob opened the Campus Laundromat on September 1, 2010. During the first month of operations the following transactions occurred....[Deadline:31/01/22]",
+    downloadLink:
+      "https://docs.google.com/document/d/19vA5_eoNvZ4Q8kDN4nWgECDmqCGhxJi2/edit?usp=sharing&ouid=113351752725746059661&rtpof=true&sd=true",
+    a_tag_title: "Download",
+    publishedDate: "Published Date: 25/01/2022",
+  },
+  {
+    id: 5,
+    noticeHeading: "Assignment from Faruk Hossen Sir",
+    noticeDetails:
+      "Implement graph and Find the DFS traversal of that graph. Print the tree edges, back edges, forward edges and cross edges.(text book).............[Deadline:06/02/22]",
+    downloadLink:
+      "https://docs.google.com/document/d/1e4ao72wNHz19ijx6kdSnE7tQlcY7EmOC/edit?usp=sharing&ouid=113351752725746059661&rtpof=true&sd=true",
+    a_tag_title: "Download",
+    publishedDate: "Published Date: 25/01/2022",
+  },
+  {
     id: 4,
     noticeHeading: "Mid-Term Exam Syllabus Theory Of Computing(CSE-255) | 2-2",
     noticeDetails:
@@ -22,7 +90,8 @@ const NOTICE_DATA = [
   },
   {
     id: 2,
-    noticeHeading: "Mid-Term Exam Syllabus Introduction to Digital Systems (CSE-253) | 2-2",
+    noticeHeading:
+      "Mid-Term Exam Syllabus Introduction to Digital Systems (CSE-253) | 2-2",
     noticeDetails:
       "To create presentation slide based on  topics are given in the pdf file. Every slide contains at least 5-6 pages.",
     downloadLink:

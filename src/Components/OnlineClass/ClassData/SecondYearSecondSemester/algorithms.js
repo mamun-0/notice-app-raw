@@ -64,5 +64,30 @@ const ALGORITHMS_DATA = [
     videoUrl: "https://www.youtube.com/embed/RFOnBsGCXtc",
     videoTitle: "ADAA 251 Lecture 13",
   },
+  {
+    id: 15,
+    videoUrl: "https://www.youtube.com/embed/QLmZ26IJ9bU",
+    videoTitle: "ADAA 251 Lecture 14",
+  },
+  {
+    id: 16,
+    videoUrl: "https://www.youtube.com/embed/TZncrB-LMk8",
+    videoTitle: "ADAA 251 Lecture 15",
+  },
+  {
+    id: 17,
+    videoUrl: "https://www.youtube.com/embed/x0nf8xRvK8s",
+    videoTitle: "ADAA 251 Lecture 16",
+  },
+  {
+    id: 18,
+    videoUrl: "https://www.youtube.com/embed/SCrHyv7Phvc",
+    videoTitle: "ADAA 251 Lecture 17",
+  },
+  {
+    id: 19,
+    videoUrl: "https://www.youtube.com/embed/OvFeHE46c2o",
+    videoTitle: "ADAA 251 Lecture 18",
+  },
 ];
 export default ALGORITHMS_DATA;
