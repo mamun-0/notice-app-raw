@@ -1,0 +1,45 @@
+.video-container {
+  position: relative;
+}
+.wave-video {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.6;
+  object-fit: contain;
+  overflow: hidden;
+  position: absolute;
+}
+.motto {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.learn,
+.think,
+.innovate {
+  font-size: 7rem;
+  margin: 0 1rem;
+}
+.learn {
+  color: red;
+}
+.think {
+  color: orangered;
+}
+.innovate {
+  color: navy;
+}
+
+@media screen and (min-width: 700px) {
+  .motto {
+    flex-direction: row;
+  }
+  .learn,
+  .think,
+  .innovate {
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+}
